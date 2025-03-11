@@ -51,9 +51,9 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%; /* Garante que a imagem não ultrapasse a largura do container */
+    width: 50%; 
     min-width: 300px;
-    border-radius: 16px; /* Borda arredondada como no exemplo */
+    border-radius: 16px; 
 }
 
 
@@ -126,10 +126,10 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        width: auto;
         padding: 10%;
     }
     .cabecalho__menu {
+        gap: 20px;
         justify-content: center;
     }
     .apresentacao {
@@ -138,6 +138,6 @@ body {
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
     }
 }
